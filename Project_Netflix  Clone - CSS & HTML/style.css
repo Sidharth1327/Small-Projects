@@ -239,6 +239,18 @@ footer .questions {
   .first {
     flex-wrap: wrap;
   }
+  
+  .first.first {
+    text-align: center;
+  }
+
+  .first.second{
+    text-align: center;
+  }
+
+  .first.third {
+    text-align: center;
+  }
 
   .secImg img {
     width: 305px;
@@ -247,6 +259,18 @@ footer .questions {
   .secImg video {
     width: 305px;
   }
+
+ /*  section{
+    flex-direction: column;
+  }
+
+  section.first>div :nth-child(1) {
+    order: 1;
+  }
+  section.first>div :nth-child(2) {
+    order: 0;
+  } */
+
 
   .hero> :nth-child(1) {
     font-size: 32px;
